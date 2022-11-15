@@ -99,6 +99,8 @@ def buscar():
         elif txtCodigo.get() != '' and txtNombre.get() != '' and txtApellido.get() != '':
             if int(alumno.codigo) == int(txtCodigo.get()) and alumno.nombre == txtNombre.get() and alumno.apellido == txtApellido.get():
                 txtLista.insert(END, str(alumno.codigo) + ": " + alumno.nombre + ", " + alumno.apellido + "\n")
+        else:
+            txtLista.insert(END, str(alumno.codigo) + ": " + alumno.nombre + ", " + alumno.apellido + "\n")
 
 
 'Creamos la ventana'
