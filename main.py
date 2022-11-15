@@ -74,7 +74,7 @@ def modificar():
             alumno.nombre = txtNombre.get()
             alumno.apellido = txtApellido.get()
 
-'Funcion que permite buscar en funcion de UN unico campo'
+'Funcion que permite buscar en funcion de uno o varios campos en funcion de que si estan vacios o no'
 def buscar():
     txtLista.delete(1.0, END)
     for alumno in lista:

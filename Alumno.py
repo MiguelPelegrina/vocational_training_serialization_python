@@ -1,3 +1,4 @@
+'Clase alumno que se utilizara en el main'
 class Alumno(object):
     def __init__(self, codigo, nombre, apellido):
         self.codigo = codigo
